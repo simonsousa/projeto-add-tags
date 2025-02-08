@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 80vh;
+    min-height: 95vh;
+}
+
+.container {
+    background-color: #7fffd46e;
+    position: absolute;
+    
+    width: 55vw;
+    padding: 5px;
+    
+    text-align: center;
+    border-radius: 20px;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    box-shadow: 6px 4px 16px 1px black;
+}
+
+#titulo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn-paragrafo {
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bolder;
+    margin: 12px 15px;
+}
+
+#btn-remocao {
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bolder;
+}
